@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/free"
+            android:title="Free"/>
+        <item
+            android:id="@+id/premium"
+            android:title="Premium"/>
+        <item
+            android:id="@+id/both"
+            android:checked="true"
+            android:title="Both" />
+    </group>
+
+    <item
+        android:id="@+id/reset"
+        android:title="Reset"/>
+</menu>
